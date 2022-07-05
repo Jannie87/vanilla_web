@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.min.css";-. §12   
- 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "material-icons/iconfont/material-icons.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

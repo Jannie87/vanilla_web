@@ -1,12 +1,17 @@
 import { CSSProperties } from "react";
 import logo from "../assets/logo_vanilla.png";
+import "./style.css";
 
 function Header() {
   return (
     <div style={rootStyle}>
-      <button style={headerButtons}>Menu</button>
+      <button style={headerButtons}>
+        <span className="material-icons-outlined">menu</span>
+      </button>
       <img src={logo} alt="logo" />
-      <button style={headerButtons}>Cart</button>
+      <button style={headerButtons}>
+        <span className="material-icons-outlined">mail</span>
+      </button>
     </div>
   );
 }
@@ -25,5 +30,6 @@ const rootStyle: CSSProperties = {
 const headerButtons: CSSProperties = {
   margin: "0 3rem",
   color: "white",
-  backgroundColor: "#333",
+  backgroundColor: "#06546b",
+  border: "none",
 };
