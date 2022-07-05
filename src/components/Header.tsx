@@ -1,17 +1,13 @@
 import { CSSProperties } from "react";
+import { Link } from "react-router-dom";
+
 import logo from "../assets/logo_vanilla.png";
 import "./style.css";
 
 function Header() {
   return (
     <div style={rootStyle}>
-      <button style={headerButtons}>
-        <span className="material-icons-outlined">menu</span>
-      </button>
       <img src={logo} alt="logo" />
-      <button style={headerButtons}>
-        <span className="material-icons-outlined">mail</span>
-      </button>
     </div>
   );
 }
