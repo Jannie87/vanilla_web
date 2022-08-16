@@ -78,6 +78,13 @@ function Footer() {
         </InputGroup>
       </div>
       <Button variant="dark">SKICKA</Button>
+      <div
+        style={{
+          padding: "2rem",
+        }}
+      >
+        <span style={{ color: "whitesmoke" }}>© VanillaTuning </span>
+      </div>
     </div>
   );
 }
