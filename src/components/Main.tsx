@@ -8,29 +8,43 @@ import subaru from "../assets/subaru.jpg";
 function Main() {
   return (
     <div>
-      <main
-        className="MainContainer"
-        style={{
-          backgroundColor: "#333",
-          display: "flex",
-          height: "80vh",
-        }}
-      >
-        <Container>
-          <Row>
-            <Col>
-              <div style={productCards}>
-                {mockedProducts.map((product) => (
-                  <ProductCard product={product} />
-                ))}
-              </div>
-            </Col>
-          </Row>
-        </Container>
-
-        <aside style={{ display: "flex", flexDirection: "row" }}>
-          <img src={subaru} alt="subaru" width={375} height={750} />
-        </aside>
+      <main>
+        <div
+          className="MainText"
+          style={{
+            backgroundColor: "#333",
+            display: "flex",
+            height: "10vh",
+          }}
+        ></div>
+        <div
+          className="MainContainer"
+          style={{
+            backgroundColor: "#06546b",
+            display: "flex",
+            height: "40vh",
+          }}
+        >
+          <Container>
+            <Row>
+              <Col>
+                <div style={productCards}>
+                  {mockedProducts.map((product) => (
+                    <ProductCard product={product} />
+                  ))}
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div
+          className="MainText"
+          style={{
+            backgroundColor: "#333",
+            display: "flex",
+            height: "30vh",
+          }}
+        ></div>
       </main>
     </div>
   );
