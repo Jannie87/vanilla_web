@@ -25,12 +25,14 @@ function Main() {
         </div>
         <div
           className="ServiceBox"
+          id="services"
           style={{
             backgroundColor: "#06546b",
             display: "flex",
             padding: "2rem",
           }}
         >
+          <h2> Tjänster</h2>
           <Container>
             <Row>
               <Col>
@@ -45,6 +47,7 @@ function Main() {
         </div>
         <div
           className="AboutText"
+          id="about"
           style={{
             backgroundColor: "#333",
             display: "flex",
@@ -55,6 +58,7 @@ function Main() {
           }}
         >
           <p style={textStyle}>
+            <h2> Om oss</h2>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo
             corporis. Consequatur dicta quibusdam magnam rerum necessitatibus
             nemo ratione delectus adipisci amet, quis a debitis aspernatur

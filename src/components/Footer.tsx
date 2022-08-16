@@ -1,10 +1,11 @@
 import { CSSProperties } from "react";
-import { Row, Form, Col, InputGroup, Button } from "react-bootstrap";
+import { Row, Form, Col, InputGroup, Button, FormLabel } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div style={footerStyle}>
+    <div id="contact" style={footerStyle}>
       <div style={formStyle}>
+        <h2> Kontakta oss: </h2>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridName">
             <Form.Label>Firstname</Form.Label>
