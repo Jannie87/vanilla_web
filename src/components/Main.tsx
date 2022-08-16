@@ -3,14 +3,14 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import ProductCard from "../components/card";
 import { mockedProducts } from "../products";
-import subaru from "../assets/subaru.jpg";
+import carhood from "../assets/carhood.jpg";
 
 function Main() {
   return (
     <div>
       <main>
         <div
-          className="MainText"
+          className="IntroText"
           style={{
             backgroundColor: "#333",
             display: "flex",
@@ -18,11 +18,11 @@ function Main() {
           }}
         ></div>
         <div
-          className="MainContainer"
+          className="ServiceBox"
           style={{
             backgroundColor: "#06546b",
             display: "flex",
-            height: "40vh",
+            padding: "2rem",
           }}
         >
           <Container>
@@ -38,13 +38,24 @@ function Main() {
           </Container>
         </div>
         <div
-          className="MainText"
+          className="AboutText"
           style={{
             backgroundColor: "#333",
             display: "flex",
             height: "30vh",
           }}
         ></div>
+        <div
+          className="ImageBox"
+          style={{
+            backgroundColor: "#06546b",
+            display: "flex",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <img src={carhood} alt="carhood" height={"400px"} />
+        </div>
       </main>
     </div>
   );
