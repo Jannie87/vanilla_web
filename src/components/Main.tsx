@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import ProductCard from "../components/card";
 import { mockedProducts } from "../products";
 import carhood from "../assets/carhood.jpg";
+import iceCream_logo from "../assets/icecream_logo.png";
 
 function Main() {
   return (
@@ -62,6 +63,7 @@ function Main() {
           style={{
             backgroundColor: "#333",
             display: "flex",
+
             height: "30vh",
             justifyContent: "center",
             alignItems: "center",
@@ -78,6 +80,7 @@ function Main() {
             quibusdam magnam rerum necessitatibus nemo ratione delectus adipisci
             amet, quis a debitis aspernatur numquam recusandae mollitia eaque!
           </p>
+          <img src={iceCream_logo} alt="icecream logo" />
         </div>
         <div
           className="ImageBox"
