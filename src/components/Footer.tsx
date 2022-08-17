@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div id="contact" style={footerStyle}>
       <div style={formStyle}>
-        <h2> Kontakta oss: </h2>
+        <h2>Kontakta oss: </h2>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridName">
             <Form.Label>Firstname</Form.Label>
@@ -102,12 +102,14 @@ const formStyle: CSSProperties = {
   width: "50vw",
   margin: "1rem",
   padding: "2rem",
+  fontFamily: "Century Gothic",
 };
 const InputStyle: CSSProperties = {
   backgroundColor: "#06546b",
   display: "flex",
   width: "25%",
   justifyContent: "center",
+  fontFamily: "Century Gothic",
   color: "white",
 };
 const footerStyle: CSSProperties = {
@@ -118,4 +120,5 @@ const footerStyle: CSSProperties = {
   alignItems: "center",
   justifyContent: "center",
   color: "white",
+  fontFamily: "Century Gothic",
 };

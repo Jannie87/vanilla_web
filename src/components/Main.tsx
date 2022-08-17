@@ -18,10 +18,18 @@ function Main() {
             justifyContent: "center",
           }}
         >
-          <p style={textStyle}>
-            Hos VanillaTunning så kan du serva och optimera prestandan i din
+          <h3
+            style={{
+              color: "whitesmoke",
+              fontFamily: "Century Gothic",
+              paddingTop: "1.5rem",
+              fontStyle: "italic",
+              textAlign: "center",
+            }}
+          >
+            Hos VanillaTuning så kan du serva och optimera prestandan i din
             bil..
-          </p>
+          </h3>
         </div>
         <div
           className="ServiceBox"

@@ -7,7 +7,7 @@ import "./style.css";
 
 function Header() {
   return (
-    <div style={rootStyle}>
+    <div id="home" style={rootStyle}>
       <img src={logo} alt="logo" />
       <div style={navBar}>
         <NavBar />
@@ -31,4 +31,5 @@ const navBar: CSSProperties = {
   color: "whitesmoke",
   border: "none",
   fontFamily: "Century Gothic",
+  fontWeight: "600",
 };
