@@ -32,7 +32,10 @@ function Main() {
             padding: "2rem",
           }}
         >
-          <h2> Tjänster</h2>
+          <h2 style={{ color: "whitesmoke", fontFamily: "Century Gothic" }}>
+            {" "}
+            Tjänster
+          </h2>
           <Container>
             <Row>
               <Col>
@@ -98,6 +101,6 @@ const textStyle: CSSProperties = {
   color: "whitesmoke",
   fontWeight: "600",
   fontSize: "1.2rem",
-  fontFamily: "",
+  fontFamily: "Century Gothic",
   padding: "2rem",
 };
