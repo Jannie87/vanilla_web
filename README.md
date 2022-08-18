@@ -27,5 +27,6 @@ Mobil: 640px
 
 ### Demo
 
-Demo: []
-Repo: [https://github.com/Jannie87/vanilla_web]
+Netlify: https://graphicprofile.netlify.app
+<br>
+Repo: https://github.com/Jannie87/vanilla_web
