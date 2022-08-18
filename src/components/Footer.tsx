@@ -8,7 +8,7 @@ function Footer() {
         <h2>Kontakta oss: </h2>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridName">
-            <Form.Label>Firstname</Form.Label>
+            <Form.Label>Förnamn</Form.Label>
             <Form.Control
               required
               type="name"
@@ -22,7 +22,7 @@ function Footer() {
         </Row>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridLastname">
-            <Form.Label>Lastname</Form.Label>
+            <Form.Label>Efternamn</Form.Label>
             <Form.Control
               required
               type="lastname"
@@ -36,7 +36,7 @@ function Footer() {
         </Row>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridPhone">
-            <Form.Label>Phone number</Form.Label>
+            <Form.Label>Mobilnummer</Form.Label>
             <Form.Control
               required
               placeholder="Phone number"
@@ -56,15 +56,7 @@ function Footer() {
             </Form.Control.Feedback>
           </Form.Group>
         </Row>
-        <Row className="mb-3">
-          <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>Email</Form.Label>
-            <Form.Control required placeholder="Email" name="email" />
-            <Form.Control.Feedback type="invalid">
-              Please provide an email.
-            </Form.Control.Feedback>
-          </Form.Group>
-        </Row>
+
         <div className="mb-3">
           <Form.Check label=" Motoroptimering" />
           <Form.Check label=" Service" />
@@ -78,7 +70,7 @@ function Footer() {
           />
         </InputGroup>
       </div>
-      <Button variant="dark">SKICKA</Button>
+      <Button variant="dark">Skicka</Button>
       <div
         style={{
           padding: "2rem",
